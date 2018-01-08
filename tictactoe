@@ -1,0 +1,22 @@
+var prompt = require('prompt');
+
+//
+// Start the prompt
+//
+prompt.start();
+
+console.log('Hello! Welcome to a game of tic-tac-toe')
+
+//
+// Get two properties from the user: username and email
+//
+prompt.get(['player1', 'player2'], function (err, result) {
+  //
+  // Log the results.
+  //
+  console.log('Command-line input received:');
+  console.log('  player2: ' + result.player1);
+  console.log('  player1: ' + result.player2);
+});
+
+//
