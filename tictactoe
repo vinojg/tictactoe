@@ -19,4 +19,4 @@ prompt.get(['player1', 'player2'], function (err, result) {
   console.log('  player1: ' + result.player2);
 });
 
-//
+// console.log(' ---\n|xxx|\n|ooo|\n|xxx|\n ---')
